@@ -21,7 +21,7 @@ after_success:
     - docker push jtwa551/multi-server
     - docker push jtwa551/multi-worker
 
- deploy:
+deploy:
     provider: elasticbeanstalk
     region: us-east-2
     app: multi-docker
